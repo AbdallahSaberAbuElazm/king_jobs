@@ -1,0 +1,76 @@
+name: king_jobs
+description: job finder.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  carousel_slider: null
+  cupertino_icons: ^1.0.2
+  dartz: null
+  # dio: ^4.0.6
+  http: 
+  equatable: null
+  file_picker: null
+  flutter_easyloading: null
+  flutter_staggered_grid_view: ^0.4.0
+  get: null
+  hive: null
+  hive_flutter: null
+  image_picker: null
+  internet_connection_checker: null
+  introduction_screen: null
+  path: null
+  path_provider: null
+  intl_phone_number_input:
+  get_it:
+  flutter_svg:
+  cached_network_image:
+  
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/texts/
+    
+
+  fonts:
+    - family: NotoKufiArabic
+      fonts:
+        - asset: assets/fonts/NotoKufiArabic-Regular.ttf
+        - asset: assets/fonts/NotoKufiArabic-Black.ttf
+        - asset: assets/fonts/NotoKufiArabic-Bold.ttf
+        - asset: assets/fonts/NotoKufiArabic-ExtraBold.ttf
+        - asset: assets/fonts/NotoKufiArabic-Light.ttf
+        - asset: assets/fonts/NotoKufiArabic-Medium.ttf
+        - asset: assets/fonts/NotoKufiArabic-Thin.ttf
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
